@@ -1,0 +1,22 @@
+.message-input {
+  display: flex;
+  padding: 12px;
+  background: #f0f0f0;
+
+  input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+  }
+
+  button {
+    background: #075e54;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+}
