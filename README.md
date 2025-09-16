@@ -35,3 +35,10 @@ Follow these steps to run the frontend:
    docker-compose -f frontend.yml up -d
 
    ```
+
+4. **Access frontend on**
+
+   ```bash
+   http://localhost:3001/ragbot
+
+   ```
