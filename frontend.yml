@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  rag-frontend:
+    image: aashu1198/rag-news-assistant-frontend:v1
+    container_name: rag-frontend
+    ports:
+      - "3001:3001"
+    environment:
+      - VITE_BACKEND_URL=https://localhost:3000/rag/api/v1
+    restart: always
